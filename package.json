@@ -1,0 +1,39 @@
+{
+  "name": "tailwind-to-css-snippets",
+  "displayName": "Tailwind to CSS Snippets",
+  "description": "Write CSS by Tailwindcss Snippets",
+  "publisher": "xxxxue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxxxue/tailwind-to-css-snippets"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "less",
+    "sass",
+    "css"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "dev": "tsx scripts/index.ts",
+    "build": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
