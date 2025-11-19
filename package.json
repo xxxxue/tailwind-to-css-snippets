@@ -1,6 +1,6 @@
 {
-  "name": "tailwind-to-css-snippets",
-  "displayName": "Tailwind to CSS Snippets",
+  "name": "tailwindcss-to-css-snippets",
+  "displayName": "Tailwindcss to CSS Snippets",
   "description": "Write CSS by Tailwindcss Snippets",
   "publisher": "xxxxue",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/xxxxue/tailwind-to-css-snippets"
   },
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.0.0"
   },
