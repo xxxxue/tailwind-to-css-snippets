@@ -49,9 +49,9 @@ async function main() {
     // 排除颜色值
     if (!name.startsWith("color-")) {
       // 给多行代码 添加名称注释
-      if (codeArr.length > 1) {
-        body = `"/* ${name} */",${body}`;
-      }
+      // if (codeArr.length > 1) {
+      //   body = `"/* ${name} */",${body}`;
+      // }
 
       // 不包含 ${0} 最终位置,则在末尾添加最终位置
       if (!body.includes("${0}")) {
