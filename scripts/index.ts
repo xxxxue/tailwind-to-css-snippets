@@ -1,7 +1,7 @@
 import { createReadStream, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { createInterface } from "node:readline";
 
-const dirName = "snippets"
+const dirName = "snippets";
 
 if (!existsSync(dirName)) {
   mkdirSync(dirName);
@@ -85,14 +85,16 @@ async function main() {
   // 拼接收尾大括号, 将所有内容转为 json
   let res = `{${resArr.join(",\n")}}`;
 
-  writeFileSync(test_file_path, res, { encoding: "utf-8" }); // 写入测试文件,便于查看 json 格式错误
+  try {
+    // 格式化 JSON
+    res = JSON.stringify(JSON.parse(res), null, 2);
 
-  // 格式化 JSON
-  res = JSON.stringify(JSON.parse(res), null, 2);
-
-  // 保存到 snippets 文件夹中, 可以直接进行调试与打包
-  writeFileSync(output_path, res, { encoding: "utf-8" });
-
+    // 保存到 snippets 文件夹中, 可以直接进行调试与打包
+    writeFileSync(output_path, res, { encoding: "utf-8" });
+  } catch (error) {
+    console.error(error);
+    writeFileSync(test_file_path, res, { encoding: "utf-8" }); // 写入测试文件,便于查看 json 格式错误
+  }
   console.log("end");
 }
 
