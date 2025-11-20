@@ -21,6 +21,8 @@ async function main() {
     crlfDelay: Infinity,
   });
 
+  const catchKeyArr: string[] = [];
+  let hasError = false;
   const resArr: string[] = [];
 
   // 逐行读取
@@ -37,22 +39,17 @@ async function main() {
     const name = arr[0].trim().replaceAll('"', '\\"');
     const code = arr[1].trim().replaceAll('"', '\\"');
 
-    const desc = code.length > 20 ? name : code; // 过长的代码就用 名称 当备注
+    let desc = code.length > 30 ? name : code; // 过长的代码就用 名称 当备注
 
-    // 使用 "换行" 来标识换行的位置
-    const codeArr = code.split("换行");
+    // 使用 "__NL__" 来标识 换行 (new-line)
+    const codeArr = code.split("__NL__");
 
-    // 使用 "空格" 来标识最终的空格
+    // 使用 "__SP__" 来标识最终的 1 个空格 (space)
     // 拼接字符串 (格式: "xxx","xxx" )
-    let body = codeArr.map((v) => `"${v.trim().replaceAll("空格", " ")}"`).join(",");
+    let body = codeArr.map((v) => `"${v.trim().replaceAll("__SP__", " ")}"`).join(",");
 
     // 排除颜色值
     if (!name.startsWith("color-")) {
-      // 给多行代码 添加名称注释
-      // if (codeArr.length > 1) {
-      //   body = `"/* ${name} */",${body}`;
-      // }
-
       // 不包含 ${0} 最终位置,则在末尾添加最终位置
       if (!body.includes("${0}")) {
         body = `${body},"\${0}"`;
@@ -78,11 +75,23 @@ async function main() {
           }`;
 
     if (item.trim() != "") {
-      resArr.push(item);
+      if (catchKeyArr.includes(name)) {
+        // 检查重复 key
+        console.error(`key 重复: ${name}`);
+        hasError = true;
+      } else {
+        // 一切正常
+        resArr.push(item);
+        catchKeyArr.push(name);
+      }
     }
   }
+  if (hasError) {
+    console.error("有错误,停止生成文件");
+    return;
+  }
 
-  // 拼接收尾大括号, 将所有内容转为 json
+  // 拼接首尾大括号, 将所有内容转为 json
   let res = `{${resArr.join(",\n")}}`;
 
   try {
@@ -111,5 +120,24 @@ function splitOnFirstSpace(str: string) {
     // 截取第二部分：从第一个空格之后到字符串末尾
     const secondPart = str.slice(firstSpaceIndex + 1);
     return [firstPart, secondPart];
+  }
+}
+
+function a() {
+  // 在浏览器控制台中执行下面代码获取到 tw 表格数据,直接粘贴到 tw.txt 中 ( 适用于 tailwind v3, 还没测试 v4 )
+  let res = [];
+  let dom = document.getElementsByTagName("tbody")[0];
+  if (dom != undefined) {
+    let list = dom.childNodes;
+    for (const item of list) {
+      let arr = item.childNodes;
+      let name = arr[0].textContent?.trim();
+      let code = arr[1].textContent?.trim().replaceAll("\n", "__NL__");
+      res.push(`${name} ${code}`);
+    }
+    let resText = res.join("\n");
+    console.log(resText);
+  } else {
+    console.error("未找到 tbody 元素");
   }
 }
