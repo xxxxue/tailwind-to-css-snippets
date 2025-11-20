@@ -2060,7 +2060,7 @@ color-rose-900 rgb(136 19 55 / 1)
 color-rose-950 rgb(76 5 25 / 1)
 
 // 自定义的工具类
-flex-center display: flex;换行 justify-items: center;换行 align-items: center;
+flex-center display: flex;换行 justify-content: center;换行 align-items: center;
 w-h-screen width: 100vw;换行 height: 100vh;
 w-h-full width: 100%;换行 height: 100%;
 keyframes @keyframes ${1} {换行空格空格${2}换行}
