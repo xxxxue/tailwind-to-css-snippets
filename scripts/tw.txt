@@ -1122,7 +1122,6 @@ pr-[<value>] padding-right: ${1}${2:px};
 pb-[<value>] padding-bottom: ${1}${2:px};
 pl-[<value>] padding-left: ${1}${2:px};
 
-
 p-0 padding: 0px;
 px-0 padding-left: 0px;__NL__ padding-right: 0px;
 py-0 padding-top: 0px;__NL__ padding-bottom: 0px;
@@ -1452,10 +1451,82 @@ mr-[<value>] margin-right: ${1}${2:px};
 mb-[<value>] margin-bottom: ${1}${2:px};
 ml-[<value>] margin-left: ${1}${2:px};
 
-space-x-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: ${1}${2:px};__NL__ };
-space-x-reverse-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: ${1}${2:px};__NL__ __SP____SP__margin-inline-end: 0;__NL__ };
-space-y-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: ${1}${2:px};__NL__ };
-space-y-reverse-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: ${1}${2:px};__NL__ __SP____SP__margin-block-end: 0;__NL__ };
+space-x-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: ${1};__NL__ }
+space-x-reverse-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: ${1};__NL__ __SP____SP__margin-inline-end: 0;__NL__ }
+space-y-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: ${1};__NL__ }
+space-y-reverse-[<value>] & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: ${1};__NL__ __SP____SP__margin-block-end: 0;__NL__ }
+
+space-x-0 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0px;__NL__ }
+space-x-0.5 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.125rem; /* 2px */__NL__ }
+space-x-1 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.25rem; /* 4px */__NL__ }
+space-x-1.5 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.375rem; /* 6px */__NL__ }
+space-x-2 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.5rem; /* 8px */__NL__ }
+space-x-2.5 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.625rem; /* 10px */__NL__ }
+space-x-3 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.75rem; /* 12px */__NL__ }
+space-x-3.5 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 0.875rem; /* 14px */__NL__ }
+space-x-4 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 1rem; /* 16px */__NL__ }
+space-x-5 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 1.25rem; /* 20px */__NL__ }
+space-x-6 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 1.5rem; /* 24px */__NL__ }
+space-x-7 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 1.75rem; /* 28px */__NL__ }
+space-x-8 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 2rem; /* 32px */__NL__ }
+space-x-9 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 2.25rem; /* 36px */__NL__ }
+space-x-10 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 2.5rem; /* 40px */__NL__ }
+space-x-11 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 2.75rem; /* 44px */__NL__ }
+space-x-12 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 3rem; /* 48px */__NL__ }
+space-x-14 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 3.5rem; /* 56px */__NL__ }
+space-x-16 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 4rem; /* 64px */__NL__ }
+space-x-20 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 5rem; /* 80px */__NL__ }
+space-x-24 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 6rem; /* 96px */__NL__ }
+space-x-28 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 7rem; /* 112px */__NL__ }
+space-x-32 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 8rem; /* 128px */__NL__ }
+space-x-36 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 9rem; /* 144px */__NL__ }
+space-x-40 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 10rem; /* 160px */__NL__ }
+space-x-44 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 11rem; /* 176px */__NL__ }
+space-x-48 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 12rem; /* 192px */__NL__ }
+space-x-52 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 13rem; /* 208px */__NL__ }
+space-x-56 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 14rem; /* 224px */__NL__ }
+space-x-60 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 15rem; /* 240px */__NL__ }
+space-x-64 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 16rem; /* 256px */__NL__ }
+space-x-72 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 18rem; /* 288px */__NL__ }
+space-x-80 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 20rem; /* 320px */__NL__ }
+space-x-96 & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 24rem; /* 384px */__NL__ }
+space-x-px & > :not(:last-child) {__NL__ __SP____SP__margin-inline-start: 0;__NL__ __SP____SP__margin-inline-end: 1px;__NL__ }
+
+space-y-0 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0px;__NL__ }
+space-y-0.5 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.125rem; /* 2px */__NL__ }
+space-y-1 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.25rem; /* 4px */__NL__ }
+space-y-1.5 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.375rem; /* 6px */__NL__ }
+space-y-2 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.5rem; /* 8px */__NL__ }
+space-y-2.5 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.625rem; /* 10px */__NL__ }
+space-y-3 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.75rem; /* 12px */__NL__ }
+space-y-3.5 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 0.875rem; /* 14px */__NL__ }
+space-y-4 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 1rem; /* 16px */__NL__ }
+space-y-5 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 1.25rem; /* 20px */__NL__ }
+space-y-6 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 1.5rem; /* 24px */__NL__ }
+space-y-7 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 1.75rem; /* 28px */__NL__ }
+space-y-8 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 2rem; /* 32px */__NL__ }
+space-y-9 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 2.25rem; /* 36px */__NL__ }
+space-y-10 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 2.5rem; /* 40px */__NL__ }
+space-y-11 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 2.75rem; /* 44px */__NL__ }
+space-y-12 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 3rem; /* 48px */__NL__ }
+space-y-14 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 3.5rem; /* 56px */__NL__ }
+space-y-16 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 4rem; /* 64px */__NL__ }
+space-y-20 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 5rem; /* 80px */__NL__ }
+space-y-24 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 6rem; /* 96px */__NL__ }
+space-y-28 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 7rem; /* 112px */__NL__ }
+space-y-32 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 8rem; /* 128px */__NL__ }
+space-y-36 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 9rem; /* 144px */__NL__ }
+space-y-40 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 10rem; /* 160px */__NL__ }
+space-y-44 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 11rem; /* 176px */__NL__ }
+space-y-48 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 12rem; /* 192px */__NL__ }
+space-y-52 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 13rem; /* 208px */__NL__ }
+space-y-56 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 14rem; /* 224px */__NL__ }
+space-y-60 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 15rem; /* 240px */__NL__ }
+space-y-64 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 16rem; /* 256px */__NL__ }
+space-y-72 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 18rem; /* 288px */__NL__ }
+space-y-80 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 20rem; /* 320px */__NL__ }
+space-y-96 & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 24rem; /* 384px */__NL__ }
+space-y-px & > :not(:last-child) {__NL__ __SP____SP__margin-block-start: 0;__NL__ __SP____SP__margin-block-end: 1px;__NL__ }
 
 m-0 margin: 0px;
 mx-0 margin-left: 0px;__NL__ margin-right: 0px;
@@ -1782,7 +1853,6 @@ mr-auto margin-right: auto;
 mb-auto margin-bottom: auto;
 ml-auto margin-left: auto;
 
-
 // width
 
 w-3xs width: 16rem; /* 256px */
@@ -2015,7 +2085,6 @@ max-w-screen-lg max-width: 1024px;
 max-w-screen-xl max-width: 1280px;
 max-w-screen-2xl max-width: 1536px;
 
-
 // height
 
 h-dvw height: 100dvw;
@@ -2097,7 +2166,6 @@ h-dvh height: 100dvh;
 h-min height: min-content;
 h-max height: max-content;
 h-fit height: fit-content;
-
 
 // min-height
 
@@ -2627,7 +2695,7 @@ bg-cover background-size: cover;
 bg-contain background-size: contain;
 bg-size-[<value>] background-size: ${1};
 
-// border-radius (TODO: rounded-s-xs 等各种组合)
+// border-radius
 
 rounded-xs border-radius: 0.125rem; /* 2px */
 rounded-4xl border-radius: 2rem; /* 32px */
@@ -3636,7 +3704,6 @@ transform-none transform: none;
 transform-gpu transform: translateZ(0) ${1};
 transform-cpu transform: ${1};
 
-
 // transform-origin
 
 origin-center transform-origin: center;
@@ -4566,14 +4633,12 @@ touch-pan-down touch-action: pan-down;
 touch-pinch-zoom touch-action: pinch-zoom;
 touch-manipulation touch-action: manipulation;
 
-
 // user-select
 
 select-none user-select: none;
 select-text user-select: text;
 select-all user-select: all;
 select-auto user-select: auto;
-
 
 // will-change
 
@@ -4648,8 +4713,7 @@ stroke-2 stroke-width: 2;
 forced-color-adjust-auto forced-color-adjust: auto;
 forced-color-adjust-none forced-color-adjust: none;
 
-
-// 自定义的 color (单独创建颜色, 就不搞类似 bg-orange-500 这种格式了, 重复的太多)
+// color value (单独创建颜色, 不搞类似 bg-orange-500 这种格式了, 重复的太多)
 
 color-black rgb(0 0 0 / 1)
 color-white rgb(255 255 255 / 1)
@@ -4895,6 +4959,14 @@ color-rose-700 rgb(190 18 60 / 1)
 color-rose-800 rgb(159 18 57 / 1)
 color-rose-900 rgb(136 19 55 / 1)
 color-rose-950 rgb(76 5 25 / 1)
+
+// breakpoint prefix
+
+sm: @media (width >= 40rem) {__NL__ __SP____SP__/* sm 640px */__NL__ __SP____SP__${0}__NL__ }
+md: @media (width >= 48rem) {__NL__ __SP____SP__/* md 768px */__NL__ __SP____SP__${0}__NL__ }
+lg: @media (width >= 64rem) {__NL__ __SP____SP__/* lg 1024px */__NL__ __SP____SP__${0}__NL__ }
+xl: @media (width >= 80rem) {__NL__ __SP____SP__/* xl 1280px */__NL__ __SP____SP__${0}__NL__ }
+2xl: @media (width >= 96rem) {__NL__ __SP____SP__/* 2xl 1536px */__NL__ __SP____SP__${0}__NL__ }
 
 // custom (自定义的工具类)
 
