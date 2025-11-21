@@ -62,6 +62,10 @@ async function main() {
 
     // 排除颜色值
     if (!name.startsWith("color-")) {
+      // 给 "space-" 添加注释
+      if (name.startsWith("space-")) {
+        body = `"/* ${name} */",${body}`;
+      }
       // 不包含 ${0} 最终位置,则在末尾添加最终位置
       if (!body.includes("${0}")) {
         body = `${body},"\${0}"`;
