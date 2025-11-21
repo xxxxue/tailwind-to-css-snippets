@@ -8,7 +8,7 @@
     "url": "https://github.com/xxxxue/tailwind-to-css-snippets"
   },
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "dev": "tsx scripts/index.ts",
-    "build": "vsce package"
+    "build": "npm run dev && vsce package"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
