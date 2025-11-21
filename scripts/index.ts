@@ -21,9 +21,13 @@ async function main() {
     crlfDelay: Infinity,
   });
 
+  const resArr: string[] = [];
+
   const catchKeyArr: string[] = [];
   let hasError = false;
-  const resArr: string[] = [];
+  const catchDescArr: string[] = [];
+
+  let index = 0;
 
   // 逐行读取
   for await (const line of rl) {
@@ -40,6 +44,14 @@ async function main() {
     const code = arr[1].trim().replaceAll('"', '\\"');
 
     let desc = code.length > 30 ? name : code; // 过长的代码就用 名称 当备注
+    // 添加唯一标识
+    // 因为 JSON.parse 会把 相同 key 覆盖掉, 导致某些代码片段消失
+    let hasDesc = false;
+    if (catchDescArr.includes(desc)) {
+      hasDesc = true;
+      index++;
+    }
+    let keyName = hasDesc ? desc + "_" + index : desc;
 
     // 使用 "__NL__" 来标识 换行 (new-line)
     const codeArr = code.split("__NL__");
@@ -65,7 +77,7 @@ async function main() {
     //  指定 scope, 则只需要设置 path
     // body: 代码补全的结果, 同时也是 右侧新弹窗中的内容
     let item = `
-          "${desc}": {
+          "${keyName}": {
               "prefix": "${name}",
               "description": "${desc}",
               "scope": "css,less,scss",
@@ -78,11 +90,12 @@ async function main() {
       if (catchKeyArr.includes(name)) {
         // 检查重复 key
         console.error(`key 重复: ${name}`);
-        hasError = true;
+        hasError = true; // 不直接停止,而是全部检查后,得到所有结果,再停止
       } else {
         // 一切正常
         resArr.push(item);
         catchKeyArr.push(name);
+        catchDescArr.push(desc);
       }
     }
   }
