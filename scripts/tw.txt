@@ -1,6 +1,8 @@
 // Tailwindcss v4.1 + Tailwindcss v3.4.17
 
-// aspect-ratio
+// To recognize "NOTE:", you need to install "gruntfuggly.todo-tree"
+
+// NOTE: aspect-ratio
 
 aspect-square aspect-ratio: 1 / 1;
 aspect-video aspect-ratio: 16 / 9;
@@ -8,7 +10,7 @@ aspect-auto aspect-ratio: auto;
 
 aspect-[<value>] aspect-ratio: ${1};
 
-// columns
+// NOTE: columns
 
 columns-[<value>] columns: ${1};
 
@@ -39,7 +41,7 @@ columns-5xl columns: 64rem; /* 1024px */
 columns-6xl columns: 72rem; /* 1152px */
 columns-7xl columns: 80rem; /* 1280px */
 
-// break-after
+// NOTE: break-after
 
 break-after-auto break-after: auto;
 break-after-avoid break-after: avoid;
@@ -50,7 +52,7 @@ break-after-left break-after: left;
 break-after-right break-after: right;
 break-after-column break-after: column;
 
-// break-before
+// NOTE: break-before
 
 break-before-auto break-before: auto;
 break-before-avoid break-before: avoid;
@@ -61,24 +63,24 @@ break-before-left break-before: left;
 break-before-right break-before: right;
 break-before-column break-before: column;
 
-// break-inside
+// NOTE: break-inside
 
 break-inside-auto break-inside: auto;
 break-inside-avoid break-inside: avoid;
 break-inside-avoid-page break-inside: avoid-page;
 break-inside-avoid-column break-inside: avoid-column;
 
-// box-decoration-break
+// NOTE: box-decoration-break
 
 box-decoration-clone box-decoration-break: clone;
 box-decoration-slice box-decoration-break: slice;
 
-// box-sizing
+// NOTE: box-sizing
 
 box-border box-sizing: border-box;
 box-content box-sizing: content-box;
 
-// display
+// NOTE: display
 
 inline display: inline;
 block display: block;
@@ -104,7 +106,7 @@ hidden display: none;
 sr-only position: absolute;__NL__ width: 1px;__NL__ height: 1px;__NL__ padding: 0;__NL__ margin: -1px;__NL__ overflow: hidden;__NL__ clip-path: inset(50%);__NL__ white-space: nowrap;__NL__ border-width: 0;
 not-sr-only position: static;__NL__ width: auto;__NL__ height: auto;__NL__ padding: 0;__NL__ margin: 0;__NL__ overflow: visible;__NL__ clip: auto;__NL__ white-space: normal;
 
-// float
+// NOTE: float
 
 float-right float: right;
 float-left float: left;
@@ -112,7 +114,7 @@ float-start float: inline-start;
 float-end float: inline-end;
 float-none float: none;
 
-// clear
+// NOTE: clear
 
 clear-left clear: left;
 clear-right clear: right;
@@ -121,12 +123,12 @@ clear-start clear: inline-start;
 clear-end clear: inline-end;
 clear-none clear: none;
 
-// isolation
+// NOTE: isolation
 
 isolate isolation: isolate;
 isolation-auto isolation: auto;
 
-// object-fit
+// NOTE: object-fit
 
 object-contain object-fit: contain;
 object-cover object-fit: cover;
@@ -134,7 +136,7 @@ object-fill object-fit: fill;
 object-none object-fit: none;
 object-scale-down object-fit: scale-down;
 
-// object-position
+// NOTE: object-position
 
 object-top-left object-position: top left;
 object-top object-position: top;
@@ -148,7 +150,7 @@ object-bottom-right object-position: bottom right;
 
 object-[<value>] object-position: ${1};
 
-// overflow
+// NOTE: overflow
 
 overflow-auto overflow: auto;
 overflow-hidden overflow: hidden;
@@ -166,7 +168,7 @@ overflow-y-visible overflow-y: visible;
 overflow-x-scroll overflow-x: scroll;
 overflow-y-scroll overflow-y: scroll;
 
-// overscroll-behavior
+// NOTE: overscroll-behavior
 
 overscroll-auto overscroll-behavior: auto;
 overscroll-contain overscroll-behavior: contain;
@@ -178,7 +180,7 @@ overscroll-y-auto overscroll-behavior-y: auto;
 overscroll-y-contain overscroll-behavior-y: contain;
 overscroll-y-none overscroll-behavior-y: none;
 
-// position
+// NOTE: position
 
 static position: static;
 fixed position: fixed;
@@ -186,7 +188,7 @@ absolute position: absolute;
 relative position: relative;
 sticky position: sticky;
 
-// top / right / bottom / left
+// NOTE: top / right / bottom / left
 
 inset-[<value>] inset: ${1}${2:px};
 inset-x-[<value>] inset-inline: ${1}${2:px};
@@ -586,13 +588,13 @@ left-2/4 left: 50%;
 left-3/4 left: 75%;
 left-full left: 100%;
 
-// visibility
+// NOTE: visibility
 
 visible visibility: visible;
 invisible visibility: hidden;
 collapse visibility: collapse;
 
-// z-index
+// NOTE: z-index
 
 z-[<value>] z-index: ${1};
 
@@ -604,7 +606,7 @@ z-40 z-index: 40;
 z-50 z-index: 50;
 z-auto z-index: auto;
 
-// flex-basis
+// NOTE: flex-basis
 
 basis-3xs flex-basis: 16rem; /* 256px */
 basis-2xs flex-basis: 18rem; /* 288px */
@@ -686,20 +688,20 @@ basis-10/12 flex-basis: 83.333333%;
 basis-11/12 flex-basis: 91.666667%;
 basis-full flex-basis: 100%;
 
-// flex-direction
+// NOTE: flex-direction
 
 flex-row flex-direction: row;
 flex-row-reverse flex-direction: row-reverse;
 flex-col flex-direction: column;
 flex-col-reverse flex-direction: column-reverse;
 
-// flex-wrap
+// NOTE: flex-wrap
 
 flex-nowrap flex-wrap: nowrap;
 flex-wrap flex-wrap: wrap;
 flex-wrap-reverse flex-wrap: wrap-reverse;
 
-// flex
+// NOTE: flex
 
 flex-auto flex: auto;
 flex-initial flex: 0 auto;
@@ -708,20 +710,20 @@ flex-1 flex: 1 1 0%;
 
 flex-[<value>] flex: ${1};
 
-// flex-grow
+// NOTE: flex-grow
 
 grow flex-grow: 1;
 grow-0 flex-grow: 0;
 
 grow-[<value>] flex-grow: ${1};
 
-// flex-shrink
+// NOTE: flex-shrink
 
 shrink flex-shrink: 1;
 shrink-0 flex-shrink: 0;
 shrink-[<value>] flex-shrink: ${1};
 
-// order
+// NOTE: order
 
 order-[<value>] order: ${1};
 
@@ -741,7 +743,7 @@ order-first order: -9999;
 order-last order: 9999;
 order-none order: 0;
 
-// grid-template-columns
+// NOTE: grid-template-columns
 
 grid-cols-[<value>] grid-template-columns: ${1};
 
@@ -760,7 +762,7 @@ grid-cols-12 grid-template-columns: repeat(12, minmax(0, 1fr));
 grid-cols-none grid-template-columns: none;
 grid-cols-subgrid grid-template-columns: subgrid;
 
-// grid-column
+// NOTE: grid-column
 
 col-span-[<value>] grid-column: span ${1} / span ${1};
 col-start-[<value>] grid-column-start: ${1};
@@ -810,7 +812,7 @@ col-end-12 grid-column-end: 12;
 col-end-13 grid-column-end: 13;
 col-end-auto grid-column-end: auto;
 
-// grid-template-rows
+// NOTE: grid-template-rows
 
 grid-rows-1 grid-template-rows: repeat(1, minmax(0, 1fr));
 grid-rows-2 grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -827,7 +829,7 @@ grid-rows-12 grid-template-rows: repeat(12, minmax(0, 1fr));
 grid-rows-none grid-template-rows: none;
 grid-rows-subgrid grid-template-rows: subgrid;
 
-// grid-row
+// NOTE: grid-row
 
 grid-rows-[<value>] grid-template-rows: ${1};
 
@@ -874,7 +876,7 @@ row-end-12 grid-row-end: 12;
 row-end-13 grid-row-end: 13;
 row-end-auto grid-row-end: auto;
 
-// grid-auto-flow
+// NOTE: grid-auto-flow
 
 grid-flow-row grid-auto-flow: row;
 grid-flow-col grid-auto-flow: column;
@@ -882,21 +884,21 @@ grid-flow-dense grid-auto-flow: dense;
 grid-flow-row-dense grid-auto-flow: row dense;
 grid-flow-col-dense grid-auto-flow: column dense;
 
-// grid-auto-columns
+// NOTE: grid-auto-columns
 
 auto-cols-auto grid-auto-columns: auto;
 auto-cols-min grid-auto-columns: min-content;
 auto-cols-max grid-auto-columns: max-content;
 auto-cols-fr grid-auto-columns: minmax(0, 1fr);
 
-// grid-auto-rows
+// NOTE: grid-auto-rows
 
 auto-rows-auto grid-auto-rows: auto;
 auto-rows-min grid-auto-rows: min-content;
 auto-rows-max grid-auto-rows: max-content;
 auto-rows-fr grid-auto-rows: minmax(0, 1fr);
 
-// gap
+// NOTE: gap
 
 gap-[<value>] gap: ${1};
 gap-x-[<value>] column-gap: ${1};
@@ -1008,7 +1010,7 @@ gap-96 gap: 24rem; /* 384px */
 gap-x-96 column-gap: 24rem; /* 384px */
 gap-y-96 row-gap: 24rem; /* 384px */
 
-// justify-content
+// NOTE: justify-content
 
 justify-start justify-content: flex-start;
 justify-end justify-content: flex-end;
@@ -1022,7 +1024,7 @@ justify-stretch justify-content: stretch;
 justify-baseline justify-content: baseline;
 justify-normal justify-content: normal;
 
-// justify-items
+// NOTE: justify-items
 
 justify-items-start justify-items: start;
 justify-items-end justify-items: end;
@@ -1032,7 +1034,7 @@ justify-items-center-safe justify-items: safe center;
 justify-items-stretch justify-items: stretch;
 justify-items-normal justify-items: normal;
 
-// justify-self
+// NOTE: justify-self
 
 justify-self-auto justify-self: auto;
 justify-self-start justify-self: start;
@@ -1042,7 +1044,7 @@ justify-self-end justify-self: end;
 justify-self-end-safe justify-self: safe end;
 justify-self-stretch justify-self: stretch;
 
-// align-content
+// NOTE: align-content
 
 content-normal align-content: normal;
 content-center align-content: center;
@@ -1054,7 +1056,7 @@ content-evenly align-content: space-evenly;
 content-baseline align-content: baseline;
 content-stretch align-content: stretch;
 
-// align-items
+// NOTE: align-items
 
 items-start align-items: flex-start;
 items-end align-items: flex-end;
@@ -1065,7 +1067,7 @@ items-baseline align-items: baseline;
 items-baseline-last align-items: last baseline;
 items-stretch align-items: stretch;
 
-// align-self
+// NOTE: align-self
 
 self-auto align-self: auto;
 self-start align-self: flex-start;
@@ -1077,7 +1079,7 @@ self-stretch align-self: stretch;
 self-baseline align-self: baseline;
 self-baseline-last align-self: last baseline;
 
-// place-content
+// NOTE: place-content
 
 place-content-center place-content: center;
 place-content-center-safe place-content: safe center;
@@ -1090,7 +1092,7 @@ place-content-evenly place-content: space-evenly;
 place-content-baseline place-content: baseline;
 place-content-stretch place-content: stretch;
 
-// place-items
+// NOTE: place-items
 
 place-items-start place-items: start;
 place-items-end place-items: end;
@@ -1100,7 +1102,7 @@ place-items-center-safe place-items: safe center;
 place-items-baseline place-items: baseline;
 place-items-stretch place-items: stretch;
 
-// place-self
+// NOTE: place-self
 
 place-self-auto place-self: auto;
 place-self-start place-self: start;
@@ -1110,7 +1112,7 @@ place-self-center place-self: center;
 place-self-center-safe place-self: safe center;
 place-self-stretch place-self: stretch;
 
-// padding
+// NOTE: padding
 
 p-[<value>] padding: ${1}${2:px};
 px-[<value>] padding-inline: ${1}${2:px};
@@ -1438,7 +1440,7 @@ pr-96 padding-right: 24rem; /* 384px */
 pb-96 padding-bottom: 24rem; /* 384px */
 pl-96 padding-left: 24rem; /* 384px */
 
-// margin
+// NOTE: margin
 
 -m-px margin: -1px;
 m-[<value>] margin: ${1}${2:px};
@@ -1853,7 +1855,7 @@ mr-auto margin-right: auto;
 mb-auto margin-bottom: auto;
 ml-auto margin-left: auto;
 
-// width
+// NOTE: width
 
 w-3xs width: 16rem; /* 256px */
 w-2xs width: 18rem; /* 288px */
@@ -1945,7 +1947,7 @@ w-fit width: fit-content;
 
 w-[<value>] width: ${1};
 
-// min-width
+// NOTE: min-width
 
 min-w-3xs min-width: 16rem; /* 256px */
 min-w-2xs min-width: 18rem; /* 288px */
@@ -2011,7 +2013,7 @@ min-w-min min-width: min-content;
 min-w-max min-width: max-content;
 min-w-fit min-width: fit-content;
 
-// max-width
+// NOTE: max-width
 
 max-w-3xs max-width: 16rem; /* 256px */
 max-w-2xs max-width: 18rem; /* 288px */
@@ -2085,7 +2087,7 @@ max-w-screen-lg max-width: 1024px;
 max-w-screen-xl max-width: 1280px;
 max-w-screen-2xl max-width: 1536px;
 
-// height
+// NOTE: height
 
 h-dvw height: 100dvw;
 h-lvw height: 100lvw;
@@ -2167,7 +2169,7 @@ h-min height: min-content;
 h-max height: max-content;
 h-fit height: fit-content;
 
-// min-height
+// NOTE: min-height
 
 min-h-dvw min-height: 100dvw;
 min-h-lvw min-height: 100lvw;
@@ -2220,7 +2222,7 @@ min-h-min min-height: min-content;
 min-h-max min-height: max-content;
 min-h-fit min-height: fit-content;
 
-// max-height
+// NOTE: max-height
 
 max-h-dvw max-height: 100dvw;
 max-h-lvw max-height: 100lvw;
@@ -2273,14 +2275,14 @@ max-h-min max-height: min-content;
 max-h-max max-height: max-content;
 max-h-fit max-height: fit-content;
 
-// font-family
+// NOTE: font-family
 
 font-sans font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 font-serif font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 font-mono font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 font-[<value>] font-family: ${1};
 
-// font-size
+// NOTE: font-size
 
 text-xs font-size: 0.75rem; /* 12px */__NL__ line-height: calc(1 / 0.75);
 text-sm font-size: 0.875rem; /* 14px */__NL__ line-height: calc(1.25 / 0.875);
@@ -2297,17 +2299,17 @@ text-8xl font-size: 6rem; /* 96px */__NL__ line-height: 1;
 text-9xl font-size: 8rem; /* 128px */__NL__ line-height: 1;
 text-[<value>] font-size: ${1}${2:rem};
 
-// font-smoothing
+// NOTE: font-smoothing
 
 antialiased -webkit-font-smoothing: antialiased;__NL__ -moz-osx-font-smoothing: grayscale;
 subpixel-antialiased -webkit-font-smoothing: auto;__NL__ -moz-osx-font-smoothing: auto;
 
-// font-style
+// NOTE: font-style
 
 italic font-style: italic;
 not-italic font-style: normal;
 
-// font-weight
+// NOTE: font-weight
 
 font-thin font-weight: 100;
 font-extralight font-weight: 200;
@@ -2320,7 +2322,7 @@ font-extrabold font-weight: 800;
 font-black font-weight: 900;
 font-[<font-weight-value>] font-weight: ${1};
 
-// font-stretch
+// NOTE: font-stretch
 
 font-stretch-ultra-condensed font-stretch: ultra-condensed; /* 50% */
 font-stretch-extra-condensed font-stretch: extra-condensed; /* 62.5% */
@@ -2333,7 +2335,7 @@ font-stretch-extra-expanded font-stretch: extra-expanded; /* 150% */
 font-stretch-ultra-expanded font-stretch: ultra-expanded; /* 200% */
 font-stretch-[<value>] font-stretch: ${1};
 
-// font-variant-numeric
+// NOTE: font-variant-numeric
 
 normal-nums font-variant-numeric: normal;
 ordinal font-variant-numeric: ordinal;
@@ -2345,7 +2347,7 @@ tabular-nums font-variant-numeric: tabular-nums;
 diagonal-fractions font-variant-numeric: diagonal-fractions;
 stacked-fractions font-variant-numeric: stacked-fractions;
 
-// letter-spacing
+// NOTE: letter-spacing
 
 tracking-tighter letter-spacing: -0.05em;
 tracking-tight letter-spacing: -0.025em;
@@ -2355,7 +2357,7 @@ tracking-wider letter-spacing: 0.05em;
 tracking-widest letter-spacing: 0.1em;
 tracking-[<value>] letter-spacing: ${1};
 
-// line-clamp
+// NOTE: line-clamp
 
 line-clamp-[<value>] overflow: hidden;__NL__ display: -webkit-box;__NL__ -webkit-box-orient: vertical;__NL__ -webkit-line-clamp: ${1};
 
@@ -2367,7 +2369,7 @@ line-clamp-5 overflow: hidden;__NL__display: -webkit-box;__NL__-webkit-box-orien
 line-clamp-6 overflow: hidden;__NL__display: -webkit-box;__NL__-webkit-box-orient: vertical;__NL__-webkit-line-clamp: 6;
 line-clamp-none overflow: visible;__NL__display: block;__NL__-webkit-box-orient: horizontal;__NL__-webkit-line-clamp: none;
 
-// line-height
+// NOTE: line-height
 
 text-size/height font-size: ${1};__NL__ line-height: ${2};
 leading-[<value>] line-height: ${1};
@@ -2387,24 +2389,24 @@ leading-normal line-height: 1.5;
 leading-relaxed line-height: 1.625;
 leading-loose line-height: 2;
 
-// list-style-image
+// NOTE: list-style-image
 
 list-image-[<value>] list-style-image: ${1};
 list-image-none list-style-image: none;
 
-// list-style-position
+// NOTE: list-style-position
 
 list-inside list-style-position: inside;
 list-outside list-style-position: outside;
 
-// list-style-type
+// NOTE: list-style-type
 
 list-disc list-style-type: disc;
 list-decimal list-style-type: decimal;
 list-none list-style-type: none;
 list-[<value>] list-style-type: ${1};
 
-// text-align
+// NOTE: text-align
 
 text-left text-align: left;
 text-center text-align: center;
@@ -2413,7 +2415,7 @@ text-justify text-align: justify;
 text-start text-align: start;
 text-end text-align: end;
 
-// color (text)
+// NOTE: color (text)
 
 text-inherit color: inherit;
 text-current color: currentColor;
@@ -2437,14 +2439,14 @@ text-blue color: blue;
 text-teal color: teal;
 text-aqua color: aqua;
 
-// text-decoration-line
+// NOTE: text-decoration-line
 
 underline text-decoration-line: underline;
 overline text-decoration-line: overline;
 line-through text-decoration-line: line-through;
 no-underline text-decoration-line: none;
 
-// text-decoration-color
+// NOTE: text-decoration-color
 
 decoration-inherit text-decoration-color: inherit;
 decoration-current text-decoration-color: currentColor;
@@ -2468,7 +2470,7 @@ decoration-blue text-decoration-color: blue;
 decoration-teal text-decoration-color: teal;
 decoration-aqua text-decoration-color: aqua;
 
-// text-decoration-style
+// NOTE: text-decoration-style
 
 decoration-solid text-decoration-style: solid;
 decoration-double text-decoration-style: double;
@@ -2476,7 +2478,7 @@ decoration-dotted text-decoration-style: dotted;
 decoration-dashed text-decoration-style: dashed;
 decoration-wavy text-decoration-style: wavy;
 
-// text-decoration-thickness
+// NOTE: text-decoration-thickness
 
 decoration-[<value>] text-decoration-thickness: ${1};
 
@@ -2488,7 +2490,7 @@ decoration-2 text-decoration-thickness: 2px;
 decoration-4 text-decoration-thickness: 4px;
 decoration-8 text-decoration-thickness: 8px;
 
-// text-underline-offset
+// NOTE: text-underline-offset
 
 underline-offset-[<value>] text-underline-offset: ${1};
 
@@ -2499,28 +2501,28 @@ underline-offset-2 text-underline-offset: 2px;
 underline-offset-4 text-underline-offset: 4px;
 underline-offset-8 text-underline-offset: 8px;
 
-// text-transform
+// NOTE: text-transform
 
 uppercase text-transform: uppercase;
 lowercase text-transform: lowercase;
 capitalize text-transform: capitalize;
 normal-case text-transform: none;
 
-// text-overflow
+// NOTE: text-overflow
 
 truncate overflow: hidden;__NL__ text-overflow: ellipsis;__NL__ white-space: nowrap;
 
 text-ellipsis text-overflow: ellipsis;
 text-clip text-overflow: clip;
 
-// text-wrap
+// NOTE: text-wrap
 
 text-wrap text-wrap: wrap;
 text-nowrap text-wrap: nowrap;
 text-balance text-wrap: balance;
 text-pretty text-wrap: pretty;
 
-// text-indent
+// NOTE: text-indent
 
 indent-[<value>] text-indent: ${1};
 
@@ -2560,7 +2562,7 @@ indent-72 text-indent: 18rem; /* 288px */
 indent-80 text-indent: 20rem; /* 320px */
 indent-96 text-indent: 24rem; /* 384px */
 
-// vertical-align
+// NOTE: vertical-align
 
 align-baseline vertical-align: baseline;
 align-top vertical-align: top;
@@ -2572,7 +2574,7 @@ align-sub vertical-align: sub;
 align-super vertical-align: super;
 align-[<value>] vertical-align: ${1};
 
-// white-space
+// NOTE: white-space
 
 whitespace-normal white-space: normal;
 whitespace-nowrap white-space: nowrap;
@@ -2581,45 +2583,45 @@ whitespace-pre-line white-space: pre-line;
 whitespace-pre-wrap white-space: pre-wrap;
 whitespace-break-spaces white-space: break-spaces;
 
-// word-break
+// NOTE: word-break
 
 break-normal word-break: normal;
 break-all word-break: break-all;
 break-keep word-break: keep-all;
 break-words overflow-wrap: break-word;
 
-// overflow-wrap
+// NOTE: overflow-wrap
 
 wrap-break-word overflow-wrap: break-word;
 wrap-anywhere overflow-wrap: anywhere;
 wrap-normal overflow-wrap: normal;
 
-// hyphens
+// NOTE: hyphens
 
 hyphens-none hyphens: none;
 hyphens-manual hyphens: manual;
 hyphens-auto hyphens: auto;
 
-// content
+// NOTE: content
 
 content-[<value>] content: ${1};
 content-none content: none;
 content content: '';
 
-// background-attachment
+// NOTE: background-attachment
 
 bg-fixed background-attachment: fixed;
 bg-local background-attachment: local;
 bg-scroll background-attachment: scroll;
 
-// background-clip
+// NOTE: background-clip
 
 bg-clip-border background-clip: border-box;
 bg-clip-padding background-clip: padding-box;
 bg-clip-content background-clip: content-box;
 bg-clip-text background-clip: text;
 
-// background-color
+// NOTE: background-color
 
 bg-inherit background-color: inherit;
 bg-current background-color: currentColor;
@@ -2643,7 +2645,7 @@ bg-blue background-color: blue;
 bg-teal background-color: teal;
 bg-aqua background-color: aqua;
 
-// background-image
+// NOTE: background-image
 
 bg-[<image-value>] background-image: ${1};
 bg-none background-image: none;
@@ -2660,13 +2662,13 @@ bg-linear-[<value>] background-image: linear-gradient(${1});
 bg-radial-[<value>] background-image: radial-gradient(${1});
 bg-conic-[<value>] background-image: conic-gradient(${1});
 
-// background-origin
+// NOTE: background-origin
 
 bg-origin-border background-origin: border-box;
 bg-origin-padding background-origin: padding-box;
 bg-origin-content background-origin: content-box;
 
-// background-position
+// NOTE: background-position
 
 bg-top-left background-position: top left;
 bg-top background-position: top;
@@ -2679,7 +2681,7 @@ bg-bottom background-position: bottom;
 bg-bottom-right background-position: bottom right;
 bg-position-[<value>] background-position: ${1};
 
-// background-repeat
+// NOTE: background-repeat
 
 bg-repeat background-repeat: repeat;
 bg-repeat-x background-repeat: repeat-x;
@@ -2688,14 +2690,14 @@ bg-repeat-space background-repeat: space;
 bg-repeat-round background-repeat: round;
 bg-no-repeat background-repeat: no-repeat;
 
-// background-size
+// NOTE: background-size
 
 bg-auto background-size: auto;
 bg-cover background-size: cover;
 bg-contain background-size: contain;
 bg-size-[<value>] background-size: ${1};
 
-// border-radius
+// NOTE: border-radius
 
 rounded-xs border-radius: 0.125rem; /* 2px */
 rounded-4xl border-radius: 2rem; /* 32px */
@@ -2838,7 +2840,7 @@ rounded-bl-2xl border-bottom-left-radius: 1rem; /* 16px */
 rounded-bl-3xl border-bottom-left-radius: 1.5rem; /* 24px */
 rounded-bl-full border-bottom-left-radius: 9999px;
 
-// border-width  (TODO: divide-x-reverse divide-y-reverse)
+// NOTE: border-width  (TODO: divide-x-reverse divide-y-reverse)
 
 border-[<width-value>] border-width: ${1}${2:px};
 border-x-[<value>] border-inline-width: ${1}${2:px};
@@ -2901,7 +2903,7 @@ border-l-4 border-left-width: 4px;
 border-l-8 border-left-width: 8px;
 border-l border-left-width: 1px;
 
-// border-color 
+// NOTE: border-color 
 
 border-inherit border-color: inherit;
 border-current border-color: currentColor;
@@ -2945,7 +2947,7 @@ divide-blue & > :not(:last-child) {__NL__ __SP____SP__ border-color: blue; __NL_
 divide-teal & > :not(:last-child) {__NL__ __SP____SP__ border-color: teal; __NL__ }
 divide-aqua & > :not(:last-child) {__NL__ __SP____SP__ border-color: aqua; __NL__ }
 
-// border-style
+// NOTE: border-style
 
 border-solid border-style: solid;
 border-dashed border-style: dashed;
@@ -2961,7 +2963,7 @@ divide-double & > :not(:last-child) {__NL__ __SP____SP__border-style: double;__N
 divide-hidden & > :not(:last-child) {__NL__ __SP____SP__border-style: hidden;__NL__ }
 divide-none & > :not(:last-child) {__NL__ __SP____SP__border-style: none;__NL__ }
 
-// outline-width
+// NOTE: outline-width
 
 outline outline-width: 1px;
 outline-[<width-value>] outline-width: ${1};
@@ -2972,7 +2974,7 @@ outline-2 outline-width: 2px;
 outline-4 outline-width: 4px;
 outline-8 outline-width: 8px;
 
-// outline-color
+// NOTE: outline-color
 
 outline-inherit outline-color: inherit;
 outline-current outline-color: currentColor;
@@ -2997,7 +2999,7 @@ outline-blue outline-color: blue;
 outline-teal outline-color: teal;
 outline-aqua outline-color: aqua;
 
-// outline-style
+// NOTE: outline-style
 
 outline-solid outline-style: solid;
 outline-dashed outline-style: dashed;
@@ -3006,7 +3008,7 @@ outline-double outline-style: double;
 outline-none outline-style: none;
 outline-hidden outline: 2px solid transparent;__NL__ outline-offset: 2px;
 
-// outline-offset
+// NOTE: outline-offset
 
 outline-offset-[<value>] outline-offset: ${1};
 
@@ -3016,7 +3018,7 @@ outline-offset-2 outline-offset: 2px;
 outline-offset-4 outline-offset: 4px;
 outline-offset-8 outline-offset: 8px;
 
-// box-shadow
+// NOTE: box-shadow
 
 shadow-2xs box-shadow: 0 1px rgb(0 0 0 / 0.05);
 shadow-xs box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -3036,13 +3038,65 @@ inset-shadow-none box-shadow: inset 0 0 #0000;
 
 inset-shadow-[<value>] box-shadow: ${1};
 
-ring-[<value>] box-shadow: ${1};
+// tw 中 ring 的值是 输入值+ ring-offset 的值, 这里无法实现
+ring-[<value>] box-shadow: 0px 0px 0px ${1}px black;
+ring-1 box-shadow: 0px 0px 0px 1px black;
+ring-2 box-shadow: 0px 0px 0px 2px black;
+ring-3 box-shadow: 0px 0px 0px 3px black;
+ring-4 box-shadow: 0px 0px 0px 4px black;
+ring-5 box-shadow: 0px 0px 0px 5px black;
+ring-6 box-shadow: 0px 0px 0px 6px black;
+ring-7 box-shadow: 0px 0px 0px 7px black;
+ring-8 box-shadow: 0px 0px 0px 8px black;
+ring-9 box-shadow: 0px 0px 0px 9px black;
+ring-10 box-shadow: 0px 0px 0px 10px black;
+
+ring-black box-shadow: 0px 0px 0px ${1}px black;
+ring-silver box-shadow: 0px 0px 0px ${1}px silver;
+ring-gray box-shadow: 0px 0px 0px ${1}px gray;
+ring-white box-shadow: 0px 0px 0px ${1}px white;
+ring-maroon box-shadow: 0px 0px 0px ${1}px maroon;
+ring-red box-shadow: 0px 0px 0px ${1}px red;
+ring-purple box-shadow: 0px 0px 0px ${1}px purple;
+ring-fuchsia box-shadow: 0px 0px 0px ${1}px fuchsia;
+ring-green box-shadow: 0px 0px 0px ${1}px green;
+ring-lime box-shadow: 0px 0px 0px ${1}px lime;
+ring-olive box-shadow: 0px 0px 0px ${1}px olive;
+ring-yellow box-shadow: 0px 0px 0px ${1}px yellow;
+ring-navy box-shadow: 0px 0px 0px ${1}px navy;
+ring-blue box-shadow: 0px 0px 0px ${1}px blue;
+ring-teal box-shadow: 0px 0px 0px ${1}px teal;
+ring-aqua box-shadow: 0px 0px 0px ${1}px aqua;
+
+inset-ring-[<value>] box-shadow: inset 0px 0px 0px ${1}px black;
+inset-ring-1 box-shadow: inset 0px 0px 0px 1px black;
+inset-ring-2 box-shadow: inset 0px 0px 0px 2px black;
+inset-ring-3 box-shadow: inset 0px 0px 0px 3px black;
+inset-ring-4 box-shadow: inset 0px 0px 0px 4px black;
+inset-ring-5 box-shadow: inset 0px 0px 0px 5px black;
+inset-ring-6 box-shadow: inset 0px 0px 0px 6px black;
+inset-ring-7 box-shadow: inset 0px 0px 0px 7px black;
+inset-ring-8 box-shadow: inset 0px 0px 0px 8px black;
+inset-ring-9 box-shadow: inset 0px 0px 0px 9px black;
+inset-ring-10 box-shadow: inset 0px 0px 0px 10px black;
+
+ring-offset-[<value>] box-shadow: 0px 0px 0px ${1}px black;
+ring-offset-1 box-shadow: 0px 0px 0px 1px black;
+ring-offset-2 box-shadow: 0px 0px 0px 2px black;
+ring-offset-3 box-shadow: 0px 0px 0px 3px black;
+ring-offset-4 box-shadow: 0px 0px 0px 4px black;
+ring-offset-5 box-shadow: 0px 0px 0px 5px black;
+ring-offset-6 box-shadow: 0px 0px 0px 6px black;
+ring-offset-7 box-shadow: 0px 0px 0px 7px black;
+ring-offset-8 box-shadow: 0px 0px 0px 8px black;
+ring-offset-9 box-shadow: 0px 0px 0px 9px black;
+ring-offset-10 box-shadow: 0px 0px 0px 10px black;
 
 shadow-inherit box-shadow: inherit;
 shadow-initial box-shadow: initial;
 shadow-unset box-shadow: unset;
 
-// text-shadow
+// NOTE: text-shadow
 
 text-shadow-2xs text-shadow: 0px 1px 0px rgb(0 0 0 / 0.15);
 text-shadow-xs text-shadow: 0px 1px 1px rgb(0 0 0 / 0.2);
@@ -3053,7 +3107,7 @@ text-shadow-none text-shadow: none;
 
 text-shadow-[<value>] text-shadow: ${1};
 
-// opacity
+// NOTE: opacity
 
 opacity-[<value>] opacity: ${1};
 
@@ -3079,7 +3133,7 @@ opacity-90 opacity: 0.9;
 opacity-95 opacity: 0.95;
 opacity-100 opacity: 1;
 
-// mix-blend-mode
+// NOTE: mix-blend-mode
 
 mix-blend-normal mix-blend-mode: normal;
 mix-blend-multiply mix-blend-mode: multiply;
@@ -3100,7 +3154,7 @@ mix-blend-luminosity mix-blend-mode: luminosity;
 mix-blend-plus-darker mix-blend-mode: plus-darker;
 mix-blend-plus-lighter mix-blend-mode: plus-lighter;
 
-// background-blend-mode
+// NOTE: background-blend-mode
 
 bg-blend-normal background-blend-mode: normal;
 bg-blend-multiply background-blend-mode: multiply;
@@ -3119,7 +3173,7 @@ bg-blend-saturation background-blend-mode: saturation;
 bg-blend-color background-blend-mode: color;
 bg-blend-luminosity background-blend-mode: luminosity;
 
-// mask-clip
+// NOTE: mask-clip
 
 mask-clip-border mask-clip: border-box;
 mask-clip-padding mask-clip: padding-box;
@@ -3129,14 +3183,14 @@ mask-clip-stroke mask-clip: stroke-box;
 mask-clip-view mask-clip: view-box;
 mask-no-clip mask-clip: no-clip;
 
-// mask-composite
+// NOTE: mask-composite
 
 mask-add mask-composite: add;
 mask-subtract mask-composite: subtract;
 mask-intersect mask-composite: intersect;
 mask-exclude mask-composite: exclude;
 
-// mask-image
+// NOTE: mask-image
 
 mask-none mask-image: none;
 mask-[<value>] mask-image: ${1};
@@ -3144,13 +3198,13 @@ mask-linear-[<value>] mask-image: linear-gradient(${1});
 mask-radial-[<value>] mask-image: radial-gradient(${1});
 mask-conic-[<value>] mask-image: conic-gradient(${1});
 
-// mask-mode
+// NOTE: mask-mode
 
 mask-alpha mask-mode: alpha;
 mask-luminance mask-mode: luminance;
 mask-match mask-mode: match-source;
 
-// mask-origin
+// NOTE: mask-origin
 
 mask-origin-border mask-origin: border-box;
 mask-origin-padding mask-origin: padding-box;
@@ -3159,7 +3213,7 @@ mask-origin-fill mask-origin: fill-box;
 mask-origin-stroke mask-origin: stroke-box;
 mask-origin-view mask-origin: view-box;
 
-// mask-position
+// NOTE: mask-position
 
 mask-top-left mask-position: top left;
 mask-top mask-position: top;
@@ -3172,7 +3226,7 @@ mask-bottom mask-position: bottom;
 mask-bottom-right mask-position: bottom right;
 mask-position-[<value>] mask-position: ${1};
 
-// mask-repeat
+// NOTE: mask-repeat
 
 mask-repeat mask-repeat: repeat;
 mask-no-repeat mask-repeat: no-repeat;
@@ -3181,24 +3235,24 @@ mask-repeat-y mask-repeat: repeat-y;
 mask-repeat-space mask-repeat: space;
 mask-repeat-round mask-repeat: round;
 
-// mask-size
+// NOTE: mask-size
 
 mask-auto mask-size: auto;
 mask-cover mask-size: cover;
 mask-contain mask-size: contain;
 mask-size-[<value>] mask-size: ${1};
 
-// mask-type
+// NOTE: mask-type
 
 mask-type-alpha mask-type: alpha;
 mask-type-luminance mask-type: luminance;
 
-// filter
+// NOTE: filter
 
 filter-none filter: none;
 filter-[<value>] filter: ${1};
 
-// blur
+// NOTE: blur
 
 blur-xs filter: blur(4px);
 blur-sm filter: blur(8px);
@@ -3210,7 +3264,7 @@ blur-3xl filter: blur(64px);
 blur-none filter: ;
 blur-[<value>] filter: blur(${1});
 
-// brightness
+// NOTE: brightness
 
 brightness-[<value>] filter: brightness(${1});
 
@@ -3226,7 +3280,7 @@ brightness-125 filter: brightness(1.25);
 brightness-150 filter: brightness(1.5);
 brightness-200 filter: brightness(2);
 
-// contrast
+// NOTE: contrast
 
 contrast-[<value>] filter: contrast(${1});
 
@@ -3238,7 +3292,7 @@ contrast-125 filter: contrast(1.25);
 contrast-150 filter: contrast(1.5);
 contrast-200 filter: contrast(2);
 
-// drop-shadow
+// NOTE: drop-shadow
 
 drop-shadow-xs filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
 drop-shadow-sm filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.15));
@@ -3250,14 +3304,14 @@ drop-shadow-none filter: drop-shadow(0 0 #0000);
 
 drop-shadow-[<value>] filter: drop-shadow(${1});
 
-// grayscale
+// NOTE: grayscale
 
 grayscale-[<value>] filter: grayscale(${1});
 
 grayscale-0 filter: grayscale(0);
 grayscale filter: grayscale(100%);
 
-// hue-rotate
+// NOTE: hue-rotate
 
 hue-rotate-[<value>] filter: hue-rotate(${1}deg);
 
@@ -3268,14 +3322,14 @@ hue-rotate-60 filter: hue-rotate(60deg);
 hue-rotate-90 filter: hue-rotate(90deg);
 hue-rotate-180 filter: hue-rotate(180deg);
 
-// invert
+// NOTE: invert
 
 invert-0 filter: invert(0);
 invert filter: invert(100%);
 
 invert-[<value>] filter: invert(${1});
 
-// saturate
+// NOTE: saturate
 
 saturate-[<value>] filter: saturate(${1});
 
@@ -3285,19 +3339,19 @@ saturate-100 filter: saturate(1);
 saturate-150 filter: saturate(1.5);
 saturate-200 filter: saturate(2);
 
-// sepia
+// NOTE: sepia
 
 sepia-0 filter: sepia(0);
 sepia filter: sepia(100%);
 
 sepia-[<value>] filter: sepia(${1});
 
-// backdrop-filter
+// NOTE: backdrop-filter
 
 backdrop-filter-none backdrop-filter: none;
 backdrop-filter-[<value>] backdrop-filter: ${1};
 
-// blur
+// NOTE: blur
 
 backdrop-blur-xs backdrop-filter: blur(4px);
 backdrop-blur-sm backdrop-filter: blur(8px);
@@ -3309,7 +3363,7 @@ backdrop-blur-3xl backdrop-filter: blur(64px);
 backdrop-blur-none backdrop-filter: none;
 backdrop-blur-[<value>] backdrop-filter: blur(${1});
 
-// brightness
+// NOTE: brightness
 
 backdrop-brightness-[<value>] backdrop-filter: brightness(${1});
 
@@ -3325,7 +3379,7 @@ backdrop-brightness-125 backdrop-filter: brightness(1.25);
 backdrop-brightness-150 backdrop-filter: brightness(1.5);
 backdrop-brightness-200 backdrop-filter: brightness(2);
 
-// contrast
+// NOTE: contrast
 
 backdrop-contrast-[<value>] backdrop-filter: contrast(${1});
 
@@ -3337,14 +3391,14 @@ backdrop-contrast-125 backdrop-filter: contrast(1.25);
 backdrop-contrast-150 backdrop-filter: contrast(1.5);
 backdrop-contrast-200 backdrop-filter: contrast(2);
 
-// grayscale
+// NOTE: grayscale
 
 backdrop-grayscale-0 backdrop-filter: grayscale(0);
 backdrop-grayscale backdrop-filter: grayscale(100%);
 
 backdrop-grayscale-[<value>] backdrop-filter: grayscale(${1});
 
-// hue-rotate
+// NOTE: hue-rotate
 
 backdrop-hue-rotate-[<value>] backdrop-filter: hue-rotate(${1}deg);
 
@@ -3355,14 +3409,14 @@ backdrop-hue-rotate-60 backdrop-filter: hue-rotate(60deg);
 backdrop-hue-rotate-90 backdrop-filter: hue-rotate(90deg);
 backdrop-hue-rotate-180 backdrop-filter: hue-rotate(180deg);
 
-// invert
+// NOTE: invert
 
 backdrop-invert-[<value>] backdrop-filter: invert(${1});
 
 backdrop-invert-0 backdrop-filter: invert(0);
 backdrop-invert backdrop-filter: invert(100%);
 
-// opacity
+// NOTE: opacity
 
 backdrop-opacity-[<value>] backdrop-filter: opacity(${1});
 
@@ -3388,7 +3442,7 @@ backdrop-opacity-90 backdrop-filter: opacity(0.9);
 backdrop-opacity-95 backdrop-filter: opacity(0.95);
 backdrop-opacity-100 backdrop-filter: opacity(1);
 
-// saturate
+// NOTE: saturate
 
 backdrop-saturate-[<value>] backdrop-filter: saturate(${1});
 
@@ -3398,19 +3452,19 @@ backdrop-saturate-100 backdrop-filter: saturate(1);
 backdrop-saturate-150 backdrop-filter: saturate(1.5);
 backdrop-saturate-200 backdrop-filter: saturate(2);
 
-// sepia
+// NOTE: sepia
 
 backdrop-sepia-0 backdrop-filter: sepia(0);
 backdrop-sepia backdrop-filter: sepia(100%);
 
 backdrop-sepia-[<value>] backdrop-filter: sepia(${1});
 
-// border-collapse
+// NOTE: border-collapse
 
 border-collapse border-collapse: collapse;
 border-separate border-collapse: separate;
 
-// border-spacing
+// NOTE: border-spacing
 
 border-spacing-[<value>] border-spacing: ${1} ${2};
 
@@ -3520,17 +3574,17 @@ border-spacing-96 border-spacing: 24rem 24rem;
 border-spacing-x-96 border-spacing: 24rem 0px;
 border-spacing-y-96 border-spacing: 0px 24rem;
 
-// table-layout
+// NOTE: table-layout
 
 table-auto table-layout: auto;
 table-fixed table-layout: fixed;
 
-// caption-side
+// NOTE: caption-side
 
 caption-top caption-side: top;
 caption-bottom caption-side: bottom;
 
-// transition-property
+// NOTE: transition-property
 
 transition transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;__NL__ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);__NL__ transition-duration: 150ms;
 transition-all transition-property: all;__NL__ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);__NL__ transition-duration: 150ms;
@@ -3541,12 +3595,12 @@ transition-transform transition-property: transform, translate, scale, rotate;__
 transition-none transition-property: none;__NL__ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);__NL__ transition-duration: 150ms;
 transition-[<value>] transition-property: ${1};__NL__ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);__NL__ transition-duration: 150ms;
 
-// transition-behavior
+// NOTE: transition-behavior
 
 transition-normal transition-behavior: normal;
 transition-discrete transition-behavior: allow-discrete;
 
-// transition-duration
+// NOTE: transition-duration
 
 duration-[<value>] transition-duration: ${1}ms;
 
@@ -3560,7 +3614,7 @@ duration-500 transition-duration: 500ms;
 duration-700 transition-duration: 700ms;
 duration-1000 transition-duration: 1000ms;
 
-// transition-timing-function
+// NOTE: transition-timing-function
 
 ease-linear transition-timing-function: linear;
 ease-in transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -3569,7 +3623,7 @@ ease-in-out transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 ease-initial transition-timing-function: initial;
 ease-[<value>] transition-timing-function: ${1};
 
-// transition-delay
+// NOTE: transition-delay
 
 delay-[<value>] transition-delay: ${1}ms;
 
@@ -3583,7 +3637,7 @@ delay-500 transition-delay: 500ms;
 delay-700 transition-delay: 700ms;
 delay-1000 transition-delay: 1000ms;
 
-// animation
+// NOTE: animation
 
 animate-spin animation: spin 1s linear infinite;__NL__ __NL__ @keyframes spin {__NL__ __SP____SP__to {__NL__ __SP____SP____SP____SP__transform: rotate(360deg);__NL__ __SP____SP__}__NL__ }
 animate-ping animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;__NL__ __NL__ @keyframes ping {__NL__ __SP____SP__75%, 100% {__NL__ __SP____SP____SP____SP__transform: scale(2);__NL__ __SP____SP____SP____SP__opacity: 0;__NL__ __SP____SP__}__NL__ }
@@ -3594,12 +3648,12 @@ animate-none animation: none;
 
 animate-[<value>] animation: ${1};
 
-// backface-visibility
+// NOTE: backface-visibility
 
 backface-hidden backface-visibility: hidden;
 backface-visible backface-visibility: visible;
 
-// perspective
+// NOTE: perspective
 
 perspective-dramatic perspective: 100px;
 perspective-near perspective: 300px;
@@ -3610,7 +3664,7 @@ perspective-none perspective: none;
 
 perspective-[<value>] perspective: ${1};
 
-// perspective-origin
+// NOTE: perspective-origin
 
 perspective-origin-center perspective-origin: center;
 perspective-origin-top perspective-origin: top;
@@ -3623,7 +3677,7 @@ perspective-origin-left perspective-origin: left;
 perspective-origin-top-left perspective-origin: top left;
 perspective-origin-[<value>] perspective-origin: ${1};
 
-// rotate
+// NOTE: rotate
 
 rotate-none rotate: none;
 rotate-[<value>] rotate: ${1};
@@ -3641,7 +3695,7 @@ rotate-45 transform: rotate(45deg);
 rotate-90 transform: rotate(90deg);
 rotate-180 transform: rotate(180deg);
 
-// scale
+// NOTE: scale
 
 scale-none scale: none;
 scale-[<value>] scale: ${1};
@@ -3678,7 +3732,7 @@ scale-150 transform: scale(1.5);
 scale-x-150 transform: scaleX(1.5);
 scale-y-150 transform: scaleY(1.5);
 
-// skew
+// NOTE: skew
 
 skew-[<value>] transform: skewX(${1}deg) skewY(${1}deg);
 skew-x-[<value>] transform: skewX(${1}deg);
@@ -3697,14 +3751,14 @@ skew-y-6 transform: skewY(6deg);
 skew-x-12 transform: skewX(12deg);
 skew-y-12 transform: skewY(12deg);
 
-// transform
+// NOTE: transform
 
 transform-[<value>] transform: ${1};
 transform-none transform: none;
 transform-gpu transform: translateZ(0) ${1};
 transform-cpu transform: ${1};
 
-// transform-origin
+// NOTE: transform-origin
 
 origin-center transform-origin: center;
 origin-top transform-origin: top;
@@ -3718,12 +3772,12 @@ origin-top-left transform-origin: top left;
 
 origin-[<value>] transform-origin: ${1};
 
-// transform-style
+// NOTE: transform-style
 
 transform-3d transform-style: preserve-3d;
 transform-flat transform-style: flat;
 
-// translate
+// NOTE: translate
 
 translate-none translate: none;
 
@@ -3817,7 +3871,7 @@ translate-y-2/4 transform: translateY(50%);
 translate-y-3/4 transform: translateY(75%);
 translate-y-full transform: translateY(100%);
 
-// accent-color
+// NOTE: accent-color
 
 accent-inherit accent-color: inherit;
 accent-current accent-color: currentColor;
@@ -3842,12 +3896,12 @@ accent-blue accent-color: blue;
 accent-teal accent-color: teal;
 accent-aqua accent-color: aqua;
 
-// appearance
+// NOTE: appearance
 
 appearance-none appearance: none;
 appearance-auto appearance: auto;
 
-// caret-color
+// NOTE: caret-color
 
 caret-inherit caret-color: inherit;
 caret-current caret-color: currentColor;
@@ -3872,7 +3926,7 @@ caret-blue caret-color: blue;
 caret-teal caret-color: teal;
 caret-aqua caret-color: aqua;
 
-// color-scheme
+// NOTE: color-scheme
 
 scheme-normal color-scheme: normal;
 scheme-dark color-scheme: dark;
@@ -3881,7 +3935,7 @@ scheme-light-dark color-scheme: light dark;
 scheme-only-dark color-scheme: only dark;
 scheme-only-light color-scheme: only light;
 
-// cursor
+// NOTE: cursor
 
 cursor-auto cursor: auto;
 cursor-default cursor: default;
@@ -3922,29 +3976,29 @@ cursor-zoom-out cursor: zoom-out;
 
 cursor-[<value>] cursor: ${1};
 
-// field-sizing
+// NOTE: field-sizing
 
 field-sizing-fixed field-sizing: fixed;
 field-sizing-content field-sizing: content;
 
-// pointer-events
+// NOTE: pointer-events
 
 pointer-events-auto pointer-events: auto;
 pointer-events-none pointer-events: none;
 
-// resize
+// NOTE: resize
 
 resize-none resize: none;
 resize resize: both;
 resize-y resize: vertical;
 resize-x resize: horizontal;
 
-// scroll-behavior
+// NOTE: scroll-behavior
 
 scroll-auto scroll-behavior: auto;
 scroll-smooth scroll-behavior: smooth;
 
-// scroll-margin
+// NOTE: scroll-margin
 
 scroll-m-[<value>] scroll-margin: ${1};
 scroll-mx-[<value>] scroll-margin-inline: ${1};
@@ -4272,7 +4326,7 @@ scroll-mr-96 scroll-margin-right: 24rem; /* 384px */
 scroll-mb-96 scroll-margin-bottom: 24rem; /* 384px */
 scroll-ml-96 scroll-margin-left: 24rem; /* 384px */
 
-// scroll-padding
+// NOTE: scroll-padding
 
 scroll-p-[<value>] scroll-padding: ${1};
 scroll-px-[<value>] scroll-padding-inline: ${1};
@@ -4601,26 +4655,26 @@ scroll-pr-96 scroll-padding-right: 24rem; /* 384px */
 scroll-pb-96 scroll-padding-bottom: 24rem; /* 384px */
 scroll-pl-96 scroll-padding-left: 24rem; /* 384px */
 
-// scroll-snap-align
+// NOTE: scroll-snap-align
 
 snap-start scroll-snap-align: start;
 snap-end scroll-snap-align: end;
 snap-center scroll-snap-align: center;
 snap-align-none scroll-snap-align: none;
 
-// scroll-snap-stop
+// NOTE: scroll-snap-stop
 
 snap-normal scroll-snap-stop: normal;
 snap-always scroll-snap-stop: always;
 
-// scroll-snap-type
+// NOTE: scroll-snap-type
 
 snap-none scroll-snap-type: none;
 snap-x scroll-snap-type: x ${1|proximity,mandatory|};
 snap-y scroll-snap-type: y ${1|proximity,mandatory|};
 snap-both scroll-snap-type: both ${1|proximity,mandatory|};
 
-// touch-action
+// NOTE: touch-action
 
 touch-auto touch-action: auto;
 touch-none touch-action: none;
@@ -4633,14 +4687,14 @@ touch-pan-down touch-action: pan-down;
 touch-pinch-zoom touch-action: pinch-zoom;
 touch-manipulation touch-action: manipulation;
 
-// user-select
+// NOTE: user-select
 
 select-none user-select: none;
 select-text user-select: text;
 select-all user-select: all;
 select-auto user-select: auto;
 
-// will-change
+// NOTE: will-change
 
 will-change-auto will-change: auto;
 will-change-scroll will-change: scroll-position;
@@ -4648,7 +4702,7 @@ will-change-contents will-change: contents;
 will-change-transform will-change: transform;
 will-change-[<value>] will-change: ${1};
 
-// fill
+// NOTE: fill
 
 fill-none fill: none;
 fill-inherit fill: inherit;
@@ -4674,7 +4728,7 @@ fill-blue fill: blue;
 fill-teal fill: teal;
 fill-aqua fill: aqua;
 
-// stroke
+// NOTE: stroke
 
 stroke-none stroke: none;
 stroke-inherit stroke: inherit;
@@ -4700,7 +4754,7 @@ stroke-blue: stroke: blue;
 stroke-teal: stroke: teal;
 stroke-aqua: stroke: aqua;
 
-// stroke-width
+// NOTE: stroke-width
 
 stroke-[<width-value>] stroke-width: ${1};
 
@@ -4708,12 +4762,12 @@ stroke-0 stroke-width: 0;
 stroke-1 stroke-width: 1;
 stroke-2 stroke-width: 2;
 
-// forced-color-adjust
+// NOTE: forced-color-adjust
 
 forced-color-adjust-auto forced-color-adjust: auto;
 forced-color-adjust-none forced-color-adjust: none;
 
-// color value (单独创建颜色, 不搞类似 bg-orange-500 这种格式了, 重复的太多)
+// NOTE: color value (单独创建颜色, 不搞类似 bg-orange-500 这种格式了, 重复的太多)
 
 color-black rgb(0 0 0 / 1)
 color-white rgb(255 255 255 / 1)
@@ -4960,24 +5014,1227 @@ color-rose-800 rgb(159 18 57 / 1)
 color-rose-900 rgb(136 19 55 / 1)
 color-rose-950 rgb(76 5 25 / 1)
 
+
+// NOTE: Pseudo-classes 伪类
+
+hover:
+```
+&:hover {
+    @media (hover: hover) {
+        ${1}
+    }
+}
+```
+focus:
+```
+&:focus {
+    ${0}
+}
+```
+
+focus-within:
+```
+&:focus-within {
+    ${0}
+}
+```
+
+focus-visible:
+```
+&:focus-visible {
+    ${0}
+}
+```
+
+active::
+```
+&:active {
+    ${0}
+}
+```
+
+visited:
+```
+&:visited {
+    ${0}
+}
+```
+
+target:
+```
+&:target {
+    ${0}
+}
+```
+
+first:
+```
+&:first-child {
+    ${0}
+}
+```
+
+last:
+```
+&:last-child {
+    ${0}
+}
+```
+
+only:
+```
+&:only-child {
+    ${0}
+}
+```
+
+odd:
+```
+&:nth-child(odd) {
+    ${0}
+}
+```
+
+even:
+```
+&:nth-child(even) {
+    ${0}
+}
+```
+
+first-of-type:
+```
+&:first-of-type {
+    ${0}
+}
+```
+
+last-of-type:
+```
+&:last-of-type {
+    ${0}
+}
+```
+
+only-of-type:
+```
+&:only-of-type {
+    ${0}
+}
+```
+
+nth-[<value>]:
+```
+&:nth-child(${1}) {
+    ${0}
+}
+```
+
+nth-3:
+```
+&:nth-child(3) {
+    ${0}
+}
+```
+
+nth-[3n+1]:
+```
+&:nth-child(3n+1) {
+    ${0}
+}
+```
+
+nth-last-[<value>]:
+```
+&:nth-last-child(${1}) {
+    ${0}
+}
+```
+
+nth-last-3:
+```
+&:nth-last-child(3) {
+    ${0}
+}
+```
+
+nth-last-[3n+1]:
+```
+&:nth-last-child(3n+1) {
+    ${0}
+}
+```
+
+nth-of-type-[<value>]:
+```
+&:nth-of-type(${1}) {
+    ${0}
+}
+```
+
+nth-of-type-3:
+```
+&:nth-of-type(3) {
+    ${0}
+}
+```
+
+nth-of-type-[3n+1]:
+```
+&:nth-of-type(3n+1) {
+    ${0}
+}
+```
+
+nth-last-of-type-[<value>]:
+```
+&:nth-last-of-type(${1}) {
+    ${0}
+}
+```
+
+nth-last-of-type-3:
+```
+&:nth-last-of-type(3) {
+    ${0}
+}
+```
+
+nth-last-of-type-[3n+1]:
+```
+&:nth-last-of-type(3n+1) {
+    ${0}
+}
+```
+
+empty:
+```
+&:empty {
+    ${0}
+}
+```
+
+disabled:
+```
+&:disabled {
+    ${0}
+}
+```
+
+enabled:
+```
+&:enabled {
+    ${0}
+}
+```
+
+checked:
+```
+&:checked {
+    ${0}
+}
+```
+
+indeterminate:
+```
+&:indeterminate {
+    ${0}
+}
+```
+
+default:
+```
+&:default {
+    ${0}
+}
+```
+
+optional:
+```
+&:optional {
+    ${0}
+}
+```
+
+required:
+```
+&:required {
+    ${0}
+}
+```
+
+valid:
+```
+&:valid {
+    ${0}
+}
+```
+
+invalid:
+```
+&:invalid {
+    ${0}
+}
+```
+
+user-valid:
+```
+&:user-valid {
+    ${0}
+}
+```
+
+user-invalid:
+```
+&:uuser-invalid {
+    ${0}
+}
+```
+
+in-range:
+```
+&:in-range {
+    ${0}
+}
+```
+
+out-of-range:
+```
+&:out-of-range {
+    ${0}
+}
+```
+
+placeholder-shown:
+```
+&:placeholder-shown {
+    ${0}
+}
+```
+
+details-content:
+```
+&::details-content {
+    ${0}
+}
+```
+
+autofill:
+```
+&:autofill {
+    ${0}
+}
+```
+
+read-only:
+```
+&:read-only {
+    ${0}
+}
+```
+
+has:
+```
+&:has(*:${1}) {
+    ${0}
+}
+```
+
+has-checked:
+```
+&:has(*:checked) {
+    ${0}
+}
+```
+
+has-[:focus]:
+```
+&:has(*:is(:focus)) {
+    ${0}
+}
+```
+
+has-[img]:
+```
+&:has(*:is(img)) {
+    ${0}
+}
+```
+
+has-[<value>]:
+```
+&:has(*:is(${1})) {
+    ${0}
+}
+```
+
+// 在父元素上添加 group 类 才能生效 (可自定义名称)
+group-has-[a]:
+```
+&:is(:where(.group):has(*:is(a)) *) {
+    ${0}
+}
+```
+
+group-has-[<value>]:
+```
+&:is(:where(.group):has(*:is(${1})) *) {
+    ${0}
+}
+```
+
+// 在 "之前同级元素" 上添加 peer 类 才能生效 (可自定义名称)
+peer-has-checked:
+```
+&:is(:where(.peer):has(*:checked) ~ *) {
+    ${0}
+}
+```
+
+peer-has-[<value>]:
+```
+&:is(:where(.peer):has(*:${1}) ~ *) {
+    ${0}
+}
+```
+
+peer-invalid:
+```
+&:is(:where(.peer):invalid ~ *) {
+    ${0}
+}
+```
+
+peer-[<value>]:
+```
+&:is(:where(.peer):${1} ~ *) {
+    ${0}
+}
+```
+
+not:
+```
+&:not(${1}) {
+    ${0}
+}
+```
+
+not-[<value>]:
+```
+&:not(*:${1}) {
+    ${0}
+}
+```
+
+// 在父元素上添加 group 类 才能生效 (可自定义名称)
+group-hover:
+```
+&:is(:where(.group):hover *) {
+    @media (hover: hover) {
+        ${0}
+    }
+}
+```
+
+group-focus:
+```
+&:is(:where(.group):focus *) {
+    ${0}
+}
+```
+
+group-active:
+```
+&:is(:where(.group):active *) {
+    ${0}
+}
+```
+
+group-odd:
+```
+&:is(:where(.group):nth-child(odd) *) {
+    ${0}
+}
+```
+
+group-[.is-published]:
+```
+&:is(:where(.group):is(.is-published) *) {
+    ${0}
+}
+```
+
+group-[<value>]:
+```
+&:is(:where(.group):is(.${1}) *) {
+    ${0}
+}
+```
+
+group-[:nth-of-type(3)_&]:
+```
+&:is(:nth-of-type(3) :where(.group) *) {
+    ${0}
+}
+```
+
+// in-* 无需 group , 响应所有父级的任意事件
+in-focus:
+```
+:where(*:focus) & {
+    ${0}
+}
+```
+
+in-[<value>]:
+```
+:where(*:${1}) & {
+    ${0}
+}
+```
+
+after:
+```
+&::after {
+    ${0}
+}
+```
+
+before:
+```
+&::before {
+    ${0}
+}
+```
+
+placeholder:
+```
+&::placeholder {
+    ${0}
+}
+```
+
+file:
+```
+&::file-selector-button {
+    ${0}
+}
+```
+
+marker:
+```
+& *::marker {
+  ${1}
+}
+&::marker {
+  ${1}
+}
+& *::-webkit-details-marker {
+  ${1}
+}
+&::-webkit-details-marker {
+  ${1}
+}
+```
+
+selection:
+```
+& *::selection {
+  ${1}
+}
+&::selection {
+  ${1}
+}
+```
+
+first-letter:
+```
+&::first-letter {
+    ${0}
+}
+```
+
+first-line:
+```
+&::first-line {
+    ${0}
+}
+```
+
+backdrop:
+```
+&::backdrop {
+    ${0}
+}
+```
+
 // breakpoint prefix
 
-sm: @media (width >= 40rem) {__NL__ __SP____SP__/* sm 640px */__NL__ __SP____SP__${0}__NL__ }
-md: @media (width >= 48rem) {__NL__ __SP____SP__/* md 768px */__NL__ __SP____SP__${0}__NL__ }
-lg: @media (width >= 64rem) {__NL__ __SP____SP__/* lg 1024px */__NL__ __SP____SP__${0}__NL__ }
-xl: @media (width >= 80rem) {__NL__ __SP____SP__/* xl 1280px */__NL__ __SP____SP__${0}__NL__ }
-2xl: @media (width >= 96rem) {__NL__ __SP____SP__/* 2xl 1536px */__NL__ __SP____SP__${0}__NL__ }
+sm:
+```
+@media (width >= 40rem) {
+    /* sm 640px */
+    ${0}
+}
+```
 
-// custom (自定义的工具类)
+md:
+```
+@media (width >= 48rem) {
+    /* md 768px */
+    ${0}
+}
+```
 
-flex-center display: flex;__NL__ justify-content: center;__NL__ align-items: center;
+lg:
+```
+@media (width >= 64rem) {
+    /* lg 1024px */
+    ${0}
+}
+```
 
-w-h-screen width: 100vw;__NL__ height: 100vh;
-h-w-screen width: 100vw;__NL__ height: 100vh;
+xl:
+```
+@media (width >= 80rem) {
+    /* xl 1280px */
+    ${0}
+}
+```
 
-w-h-full width: 100%;__NL__ height: 100%;
-h-w-full width: 100%;__NL__ height: 100%;
+2xl:
+```
+@media (width >= 96rem) {
+    /* 2xl 1536px */
+    ${0}
+}
+```
 
-keyframes @keyframes ${1} {__NL____SP____SP__${2}__NL__}
+max-[600px]:
+```
+@media (width < 600px) {
+    ${0}
+}
+```
 
-property @property --${1:property-name} {__NL__ __SP____SP__syntax: "<${2|color,angle,number,length,percentage,length-percentage,image,url,integer,time,resolution,transform-list,transform-function,custom-ident (a custom identifier string)|}>";__NL__ __SP____SP__inherits: false;__NL__ __SP____SP__initial-value: ${3:#c0ffee};__NL__ }
+max-[<value>]:
+```
+@media (width < ${1}) {
+    ${0}
+}
+```
+
+min-[320px]:
+```
+@media (width >= 320px) {
+    ${0}
+}
+```
+
+min-[<value>]:
+```
+@media (width >= ${1}) {
+    ${0}
+}
+```
+
+// 容器查询 ,可嵌套
+// 容器中 可以使用 cqw, 与 % 类似,
+// cqw 是相对于最近容器, 百分比是相对于父元素, 比如 50cqw 就是 50%
+@container container-type: inline-size;
+
+// 同 @min-*
+@3xs:
+```
+@container (width >= 16rem) {
+    /* @3xs 16rem (256px) */
+    ${0}
+}
+```
+
+@2xs:
+```
+@container (width >= 18rem) {
+    /* @2xs 18rem (288px) */
+    ${0}
+}
+```
+
+@xs:
+```
+@container (width >= 20rem) {
+    /* @xs 20rem (320px) */
+    ${0}
+}
+```
+
+@sm:
+```
+@container (width >= 24rem) {
+    /* @sm 24rem (384px) */
+    ${0}
+}
+```
+
+@md:
+```
+@container (width >= 28rem) {
+    /* @md 28rem (448px) */
+    ${0}
+}
+```
+
+@lg:
+```
+@container (width >= 32rem) {
+    /* @lg 32rem (512px) */
+    ${0}
+}
+```
+
+@xl:
+```
+@container (width >= 36rem) {
+    /* @xl 36rem (576px) */
+    ${0}
+}
+```
+
+@2xl:
+```
+@container (width >= 42rem) {
+    /* @2xl 42rem (672px) */
+    ${0}
+}
+```
+
+@3xl:
+```
+@container (width >= 48rem) {
+    /* @3xl 48rem (768px) */
+    ${0}
+}
+```
+
+@4xl:
+```
+@container (width >= 56rem) {
+    /* @4xl 56rem (896px) */
+    ${0}
+}
+```
+
+@5xl:
+```
+@container (width >= 64rem) {
+    /* @5xl 64rem (1024px) */
+    ${0}
+}
+```
+
+@6xl:
+```
+@container (width >= 72rem) {
+    /* @6xl 72rem (1152px) */
+    ${0}
+}
+```
+
+@7xl:
+```
+@container (width >= 80rem) {
+    /* @7xl 80rem (1280px) */
+    ${0}
+}
+```
+
+@max-3xs:
+```
+@container (width < 16rem) {
+    /* @max-3xs 16rem (256px) */
+    ${0}
+}
+```
+
+@max-2xs:
+```
+@container (width < 18rem) {
+    /* @max-2xs 18rem (288px) */
+    ${0}
+}
+```
+
+@max-xs:
+```
+@container (width < 20rem) {
+    /* @max-xs 20rem (320px) */
+    ${0}
+}
+```
+
+@max-sm:
+```
+@container (width < 24rem) {
+    /* @max-sm 24rem (384px) */
+    ${0}
+}
+```
+
+@max-md:
+```
+@container (width < 28rem) {
+    /* @max-md 28rem (448px) */
+    ${0}
+}
+```
+
+@max-lg:
+```
+@container (width < 32rem) {
+    /* @max-lg 32rem (512px) */
+    ${0}
+}
+```
+
+@max-xl:
+```
+@container (width < 36rem) {
+    /* @max-xl 36rem (576px) */
+    ${0}
+}
+```
+
+@max-2xl:
+```
+@container (width < 42rem) {
+    /* @max-2xl 42rem (672px) */
+    ${0}
+}
+```
+
+@max-3xl:
+```
+@container (width < 48rem) {
+    /* @max-3xl 48rem (768px) */
+    ${0}
+}
+```
+
+@max-4xl:
+```
+@container (width < 56rem) {
+    /* @max-4xl 56rem (896px) */
+    ${0}
+}
+```
+
+@max-5xl:
+```
+@container (width < 64rem) {
+    /* @max-5xl 64rem (1024px) */
+    ${0}
+}
+```
+
+@max-6xl:
+```
+@container (width < 72rem) {
+    /* @max-6xl 72rem (1152px) */
+    ${0}
+}
+```
+
+@max-7xl:
+```
+@container (width < 80rem) {
+    /* @max-7xl 80rem (1280px) */
+    ${0}
+}
+```
+
+// 可以指定名称
+@container/main:
+```
+container-type: inline-size;
+container-name: ${1:main};
+```
+
+@sm/main:
+```
+@container ${1:main} (width >= 24rem) {
+    ${0}
+}
+```
+
+// 夜晚模式
+// 根据 "系统设置" 自动生效
+dark-use-system:
+```
+@media (prefers-color-scheme: dark) {
+    ${0}
+}
+```
+
+// <html class="dark">
+dark-use-class:
+```
+&:where(.dark, .dark *) {
+    ${0}
+}
+```
+
+// <html data-theme="dark">
+dark-use-data-theme:
+```
+&:where([data-theme=dark], [data-theme=dark] *) {
+    ${0}
+}
+```
+
+// 操作系统中启用了“减少动画/运动”（Reduce motion）无障碍设置
+motion-reduce:
+```
+@media (prefers-reduced-motion: reduce) {
+    ${0}
+}
+```
+
+motion-safe:
+```
+@media (prefers-reduced-motion: no-preference) {
+    ${0}
+}
+```
+
+contrast-more:
+```
+@media (prefers-contrast: more) {
+    ${0}
+}
+```
+
+contrast-less:
+```
+@media (prefers-contrast: less) {
+    ${0}
+}
+```
+
+forced-colors:
+```
+@media (forced-colors: active) {
+    ${0}
+}
+```
+
+not-forced-colors:
+```
+@media not (forced-colors: active) {
+    ${0}
+}
+```
+
+inverted-colors:
+```
+@media (inverted-colors: inverted) {
+    ${0}
+}
+```
+
+pointer-fine:
+```
+@media (pointer: fine) {
+    ${0}
+}
+```
+
+pointer-coarse:
+```
+@media (pointer: coarse) {
+    ${0}
+}
+```
+
+any-pointer-fine:
+```
+@media (any-pointer: fine) {
+    ${0}
+}
+```
+
+any-pointer-coarse:
+```
+@media (any-pointer: coarse) {
+    ${0}
+}
+```
+
+pointer-none:
+```
+@media (pointer: none) {
+    ${0}
+}
+
+```
+any-pointer-none:
+```
+@media (any-pointer: none) {
+    ${0}
+}
+```
+
+portrait:
+```
+@media (orientation: portrait) {
+    ${0}
+}
+```
+
+landscape:
+```
+@media (orientation: landscape) {
+    ${0}
+}
+```
+
+noscript:
+```
+@media (scripting: none) {
+    ${0}
+}
+```
+
+print:
+```
+@media print {
+    ${0}
+}
+```
+
+supports-[<value>]:
+```
+@supports (${1}) {
+    ${0}
+}
+```
+
+not-supports-[<value>]:
+```
+@supports not (${1}) {
+    ${0}
+}
+```
+
+starting:
+```
+@starting-style {
+    ${0}
+}
+```
+
+starting:open:
+```
+@starting-style {
+  &:is([open], :popover-open, :open) {
+    ${0}
+  }
+}
+```
+
+aria-busy:
+```
+&[aria-busy="true"] {
+    ${0}
+}
+```
+
+aria-checked:
+```
+&[aria-checked="true"] {
+    ${0}
+}
+```
+
+aria-disabled:
+```
+&[aria-disabled="true"] {
+    ${0}
+}
+```
+
+aria-expanded:
+```
+&[aria-expanded="true"] {
+    ${0}
+}
+```
+
+aria-hidden:
+```
+&[aria-hidden="true"] {
+    ${0}
+}
+```
+
+aria-pressed:
+```
+&[aria-pressed="true"] {
+    ${0}
+}
+```
+
+aria-readonly:
+```
+&[aria-readonly="true"] {
+    ${0}
+}
+```
+
+aria-required:
+```
+&[aria-required="true"] {
+    ${0}
+}
+```
+
+aria-selected:
+```
+&[aria-selected="true"] {
+    ${0}
+}
+```
+
+aria-asc:
+```
+&[aria-sort="ascending"] {
+    ${0}
+}
+```
+
+aria-desc:
+```
+&[aria-sort="descending"] {
+    ${0}
+}
+```
+
+group-aria-[sort=ascending]:
+```
+&:is(:where(.group)[aria-sort="ascending"] *) {
+    ${0}
+}
+```
+
+group-aria-[sort=descending]:
+```
+&:is(:where(.group)[aria-sort="descending"] *) {
+    ${0}
+}
+```
+
+data-[size=large]:
+```
+&[data-size="large"] {
+    ${0}
+}
+```
+
+data-active:
+```
+&[data-active] {
+    ${0}
+}
+```
+
+ltr:
+```
+&:where(:dir(ltr), [dir="ltr"], [dir="ltr"] *) {
+    ${0}
+}
+```
+
+rtl:
+```
+&:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
+    ${0}
+}
+```
+
+open:
+```
+&:is([open], :popover-open, :open) {
+    ${0}
+}
+```
+
+inert:
+```
+&:is([inert], [inert] *) {
+    ${0}
+}
+```
+
+is-*:
+```
+:is(& > *) {
+    ${0}
+}
+```
+
+is-**:
+```
+:is(& *) {
+    ${0}
+}
+```
+
+// NOTE: custom (自定义的工具类)
+
+flex-center
+```
+display: flex;
+justify-content: center;
+align-items: center;
+```
+
+w-h-screen
+```
+width: 100vw;
+height: 100vh;
+```
+
+h-w-screen
+```
+width: 100vw;
+height: 100vh;
+```
+
+w-h-full
+```
+width: 100%;
+height: 100%;
+```
+
+h-w-full
+```
+width: 100%;
+height: 100%;
+```
+
+keyframes
+```
+@keyframes ${1} {
+    ${2}
+}
+```
+
+property
+```
+@property --${1:property-name} {
+    syntax: "<${2|color,angle,number,length,percentage,length-percentage,image,url,integer,time,resolution,transform-list,transform-function,custom-ident (a custom identifier string)|}>";
+    inherits: false;
+    initial-value: ${3:#c0ffee};
+}
+```
+
+this &${0}
