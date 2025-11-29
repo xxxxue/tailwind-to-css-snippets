@@ -168,7 +168,7 @@ function create(name: string, code: string | string[]): void {
           "${keyName}": {
               "prefix": "${name}",
               "description": "${desc}",
-              "scope": "css,less,scss",
+              "scope": "css,less,scss,tailwindcss",
               "body": [
                   ${body}
               ]
